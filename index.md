@@ -1,9 +1,9 @@
 ---
-title: Hello, World!
+title: Projects
 layout: default
 ---
 
-# Hello World dada
+# Projects
 
 Proin eleifend libero accumsan felis luctus nec consectetur purus commodo. Phasellus sodales est nec massa imperdiet commodo. Maecenas risus nulla, placerat vel vestibulum vel, dapibus quis libero.
 
