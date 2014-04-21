@@ -1,0 +1,32 @@
+---
+title: Updates
+layout: default
+---
+<div class="h1 page-header">
+{{page.title}}
+</div>
+{% assign myCount = 0 %}
+
+{% for post in site.categories.news limit:10 %}
+
+ {% if myCount == 0 %}
+<div class="row">
+ {% endif %}
+
+<div class="col-6 col-sm-6 col-lg-4">
+<h3>{{ post.title }}</h3>
+<h5>{{ post.date | date_to_long_string }}</h5>
+<p>
+{{ post.summary }}
+      <a href="{{ post.url }}">Read More</a>
+</p>
+
+</div>
+{% if myCount == 1 %}
+</div>
+{% assign myCount = -1 %}
+ {% endif %}
+
+{% assign myCount = myCount|plus:1 %}
+{% endfor %}
+
