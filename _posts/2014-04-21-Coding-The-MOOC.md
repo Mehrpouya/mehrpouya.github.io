@@ -2,10 +2,10 @@
 title: Coding The MOOC
 layout: default
 categories: work news
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum leo non felis porttitor vulputate. 
+summary: The aim of this project is to collaborate across the Schools of Education, Informatics and ECA to develop applications which code is the ‘teacher function’ within MOOCs.
 ---
 
 #Coding The MOOC
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum leo non felis porttitor vulputate. Nulla ipsum quam, auctor ut hendrerit quis, tincidunt eu metus. Quisque ipsum tellus, semper a tempus quis, interdum vel magna. Cras a nisl diam, in accumsan augue. Pellentesque varius nibh eu diam tempor rhoncus.
+The aim of this project is to collaborate across the Schools of Education, Informatics and ECA to develop applications which code is the ‘teacher function’ within MOOCs.
 

@@ -2,7 +2,7 @@
 title: OXFAM Smart Banks Project
 layout: default
 categories: work news
-summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum leo non felis porttitor vulputate. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum leo non felis porttitor vulputate. 
+summary: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum leo non felis porttitor vulputate. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum leo non felis porttitor vulputate.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum leo non felis porttitor vulputate. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum leo non felis porttitor vulputate.Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum leo non felis porttitor vulputate. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse elementum leo non felis porttitor vulputate. 
 ---
 
 #OXFAM Smart Banks Project
