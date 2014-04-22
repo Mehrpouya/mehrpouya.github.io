@@ -734,26 +734,75 @@ pre code {
   overflow-y: scroll;
 }
 .container {
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-right: 2em;
+  padding-left: 2em;
   margin-right: auto;
   margin-left: auto;
 }
-@media (min-width: 768px) {
+@media (min-width: 320px) {
   .container {
-    width: 750px;
+ padding-right: 0em;
+  padding-left: 0em;
+    width: 308px;
   }
 }
-@media (min-width: 992px) {
+@media (min-width: 540px) {
   .container {
-    width: 970px;
+ padding-right: 2em;
+  padding-left: 2em;
+    width: 528px;
   }
 }
-@media (min-width: 1200px) {
+@media (min-width: 720px) {
   .container {
-    width: 1170px;
+ padding-right: 2em;
+  padding-left: 2em;
+    width: 708px;
   }
 }
+@media (min-width: 800px) {
+  .container {
+ padding-right: 2em;
+  padding-left: 2em;
+    width: 788px;
+  }
+}
+@media (min-width: 1024px) {
+  .container {
+ padding-right: 2em;
+  padding-left: 2em;
+    width: 1012px;
+  }
+}
+@media (min-width: 1152px) {
+  .container {
+  padding-right: 2em;
+  padding-left: 2em;
+    width: 1140px;
+  }
+}
+@media (min-width: 1280px) {
+  .container {
+  padding-right: 10em;
+  padding-left: 10em;
+    width: 1268px;
+  }
+}
+@media (min-width: 1680px) {
+  .container {
+  padding-right: 10em;
+  padding-left: 10em;
+    width: 1580px;
+  }
+}
+@media (min-width: 1960px) {
+  .container {
+  padding-right: 10em;
+  padding-left: 10em;
+    width: 1948px;
+  }
+}
+
 .container-fluid {
   padding-right: 15px;
   padding-left: 15px;
@@ -5781,5 +5830,10 @@ button.close {
   .hidden-print {
     display: none !important;
   }
+}
+
+
+.hadi{
+  max-height: 100px;
 }
 /*# sourceMappingURL=bootstrap.css.map */

@@ -7,11 +7,9 @@ layout: default
 </div>
 {% assign myCount = 0 %}
 
-{% for post in site.categories.news limit:10 %}
+{% for post in site.categories.news%}
 
- {% if myCount == 0 %}
-<div class="row">
- {% endif %}
+ 
 
 <div class="col-6 col-sm-6 col-lg-4">
 <h3>{{ post.title }}</h3>
@@ -22,11 +20,6 @@ layout: default
 </p>
 
 </div>
-{% if myCount == 1 %}
-</div>
-{% assign myCount = -1 %}
- {% endif %}
 
-{% assign myCount = myCount|plus:1 %}
 {% endfor %}
 
