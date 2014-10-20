@@ -1,7 +1,7 @@
 ---
 title: Eigg Artist Residency
 layout: default
-categories: work
+categories: work news
 imageSource: /assets/OffGrid-A-Week-On-Eigg-small.png
 summary: As part of our attempt to visualise infrastructures for living off the grid in comparative global contexts we have used our ESRC Off the Grid grant to contribute to the development of a new open source tool that will enable academic researchers across the social sciences to build and publish interactive stories or narratives online.
 ---
