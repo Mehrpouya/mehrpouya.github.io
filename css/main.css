@@ -167,3 +167,7 @@ margin-right:10px;
 
 	
 }
+
+.leftAlign p{
+  text-align:left;	
+}
