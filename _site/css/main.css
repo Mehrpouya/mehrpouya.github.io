@@ -161,9 +161,7 @@ a:visited { color: #a0a; }
 
 
 .withBorders{
-	border: 2px double #aaa; outline: 1px dashed #bbb; outline-offset: -5px;
-border-radius: 3px;
-margin-right:10px;
+margin:10px;
 
 	
 }
@@ -171,3 +169,22 @@ margin-right:10px;
 .leftAlign p{
   text-align:left;	
 }
+
+.leftAlign ul,h2,li{
+  text-align:left;	
+}
+
+
+.postsContainer p img{
+    max-width: 100%;
+    margin-top:20px;
+    margin-bottom:20px;
+    display:block;
+    height: auto;
+    width: auto\9; /* ie8 */
+}
+
+.postsContainer p{
+    font-size:2em;
+}
+
