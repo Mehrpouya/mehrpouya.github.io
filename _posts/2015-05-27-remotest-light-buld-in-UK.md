@@ -2,26 +2,21 @@
 title: Remotest smart light bulb in the UK!
 layout: posts
 categories: work news
-imageSource: /assets/Knoydart/seal.jpg
-summary: Short blog explaining how did we develop the first remotest light bulb in the mainland UK.
+imageSource: /assets/Knoydart/herald.png
+summary: The Phillips Light Bulb project was recently featured in the Herald Scotland and Deadline News, and as part of the development team behind the work, and thought it would be helpful to document how the project was developed and the code behind the project.
 ---
 
-#Phillips Light bulb diary:
+#Phillips Light Bulb Diary:
+
+The Phillips Light Bulb project was recently featured in the [Herald Scotland][herald] and [Deadline News][deadlinenews], and as part of the development team behind the work, and thought it would be helpful to document how the project was developed and the code behind the project.
 
 ## How it all came together:
 
 In August 2014 [Jamie Cross][Jamie] Co-investigator of [Off the Grid][offgrid] asked [myself][Hadi] and [Margus Lind][Margus] to join another project that he was leading in collaboration with [Knoydart Foundation][knoydartfoundation], [Local Energy Scotland][localenergyscot] and [Community Energy Scotland][communityenergy].
 
-After developing a few data visualisations to try and find a way to translate the data from this tracker
+After developing a few data visualisations to try and find a way to translate the data from this tracker, and fragility of this micro-hydro into something more meanngful for the community without creating panic.
 
-![Tracker](/assets/Knoydart/tracker.jpg)
-
-and fragility of this micro-hydro:
-
-![Hydro](/assets/Knoydart/hydro.jpg)
-
-
-into something meaningful for the community without creating panic.
+![Tracker](/assets/Knoydart/tracker.jpg) ![Hydro](/assets/Knoydart/hydro.jpg)
 
 Sitting in the [Knoydart bunkhouse][bunkhouse] the three of us joined by [Kyle Smith][Kyle] operations manager of [Knoydart Foundation][knoydartfoundation] and [Benny Talbot][Benny] from Community Energy Scotland.
 We were trying to find a way to engage with the community and tourists about how to have better awareness of energy consumption to avoid power cuts and develop ways to use the surplass energy.
@@ -130,14 +125,6 @@ time.sleep(10)
 
 
 
-
-##Reflections:
-
-
-
-
-
-
 [Jamie]:http://www.sps.ed.ac.uk/staff/social_anthropology/cross_jamie
 [Hadi]:http://hadi.link
 [Margus]:https://github.com/modulo-
@@ -156,3 +143,5 @@ time.sleep(10)
 [phillipshue]:http://www2.meethue.com/en-gb/
 [bunkhouse]:http://www.knoydart-foundation.com/bunkhouse/about-the-bunkhouse/
 [datakettle]:http://www.powerofknoydart.org/downloads.html
+[herald]:http://www.heraldscotland.com/news/home-news/the-power-of-knoydart-lights-up-community.127060619
+[deadlinenews]: http://www.deadlinenews.co.uk/2015/05/26/lightbulb-warns-remote-community-of-power-blackout/
