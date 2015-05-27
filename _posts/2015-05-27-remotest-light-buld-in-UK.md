@@ -12,7 +12,7 @@ summary: Short blog explaining how did we develop the first remotest light bulb 
 
 In August 2014 [Jamie Cross][Jamie] Co-investigator of [Off the Grid][offgrid] asked [myself][Hadi] and [Margus Lind][Margus] to join another project that he was leading in collaboration with [Knoydart Foundation][knoydartfoundation], [Local Energy Scotland][localenergyscot] and [Community Energy Scotland][communityenergy].
 
-After developing a few data visualisation to try and find a way to translate the data from this tracker
+After developing a few data visualisations to try and find a way to translate the data from this tracker
 
 ![Tracker](/assets/Knoydart/tracker.jpg)
 
@@ -26,9 +26,9 @@ into something meaningful for the community without creating panic.
 Sitting in the [Knoydart bunkhouse][bunkhouse] the three of us joined by [Kyle Smith][Kyle] operations manager of [Knoydart Foundation][knoydartfoundation] and [Benny Talbot][Benny] from Community Energy Scotland.
 We were trying to find a way to engage with the community and tourists about how to have better awareness of energy consumption to avoid power cuts and develop ways to use the surplass energy.
 
-After a couple of hours of writing down ideas and sketches, [Kyle][Kyle] mentioned if we have seen the new [Phillips smart light bulbs][phillipshue]. None of us have heard about them before, couple of more hours of research and the next day [Margus][Margus] developed the first hack of the light bulb. We managed on our last night in Knoydart to install it on one of the computers in the community library. The pupose was to change the color of the light bulb according to the community energy consumption.
+After a couple of hours of writing down ideas and sketches, [Kyle][Kyle] mentioned if we have seen the new [Phillips smart light bulbs][phillipshue]. None of us have heard about them before, however after a few more hours of research, the next day [Margus][Margus] developed the first hack of the light bulb. We managed on our last night in Knoydart to install it on one of the computers in the community library. The purpose was to change the color of the light bulb according to the community energy consumption.
 
-And this is what we left there for 3 month.
+And this is what we left there for the following 3 months.
 
 ![Phillips Hue in the library](/assets/Knoydart/philips-library.jpg)
 
@@ -36,7 +36,7 @@ And this is what we left there for 3 month.
 
 ##First evaluation:
 
-We ran focus groups, interviewed people and made various versions of our visualisations and work. Finally the community were happy with three final designs.
+We ran focus groups, interviewed people and made various versions of our visualisations. Finally the community were happy with three final designs.
 
 ![focus group](/assets/Knoydart/first-focusgroup.jpg)
 
@@ -48,9 +48,9 @@ We ran focus groups, interviewed people and made various versions of our visuali
 3:Data kettle (a widget for windows computers that shows the amount of energy consumption as a water level in a kettle).
 
 
-When we went back to Knoydart at the end of same year, we found out that not many people knew about our [Power of knoydart website][powerofknoydart] and also all the lights in the library have been removed, and sadly not many people installed our kettle on their computers.
+When we went back to Knoydart at the end of same year, we found out that not many people knew about our [Power of knoydart website][powerofknoydart]. Furthermore all of the lights in the library have been removed, and sadly not many people installed our kettle on their computers.
 
-Not knowing about our website or the kettle widget was because of reasons as simple: some lost the link to the page, some didn't know about it, and some found it unreliable that the page was often down
+Not knowing about our website or the kettle widget was because of reasons as simple as: some lost the link to the page, some didn't know about it, and some found it unreliable that the page was often down.
 
 The lights being moved from the library was again because our script lost communication with data server and the light bulb.
 
@@ -68,7 +68,7 @@ We made a new version of the code which is documented and accessible on here: [P
 
 ##Open source code and documentation:
 I will publish the Phillips python code on the [Power of Knoydart website][githubknoydart] in the next couple of days.
-Here's how to do it yourlself:
+Here's how to do it yourself:
 
 ##Here's how we hacked the Phillips light:
 Get yourself a:
