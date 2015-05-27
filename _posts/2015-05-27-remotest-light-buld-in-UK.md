@@ -8,39 +8,58 @@ summary: Short blog explaining how did we develop the first remotest light bulb 
 
 #Phillips Light bulb diary:
 
-##How it all came together:
-In August 2014 [Jamie Cross][Jamie] Co-investigator of [Off the Grid][offgird] asked [myself][Hadi] and [Margus Lind][Margus] to join another project that he was leading in collaboration with Knoydart Foundation, Local Energy Scotland and Community Energy Scotland.
+## How it all came together:
+
+In August 2014 [Jamie Cross][Jamie] Co-investigator of [Off the Grid][offgrid] asked [myself][Hadi] and [Margus Lind][Margus] to join another project that he was leading in collaboration with [Knoydart Foundation][knoydartfoundation], [Local Energy Scotland][localenergyscot] and [Community Energy Scotland][communityenergy].
 
 After developing a few data visualisation to try and find a way to translate the data from this tracker
-![Hydro turbine](/assets/Knoydart/tracker.jpg)
 
-into something meaningful for the community.
-Sitting in Knoydart bunkhouse the three of us joined by [Kyle Smith][Kyle] operations manager of [Knoydart Foundation][Knoydart Foundation] and [Benny Talbot][Benny] from Community Energy Scotland.
+![Tracker](/assets/Knoydart/tracker.jpg)
+
+and fragility of this micro-hydro:
+
+![Hydro](/assets/Knoydart/hydro.jpg)
+
+
+into something meaningful for the community without creating panic.
+
+Sitting in the [Knoydart bunkhouse][bunkhouse] the three of us joined by [Kyle Smith][Kyle] operations manager of [Knoydart Foundation][knoydartfoundation] and [Benny Talbot][Benny] from Community Energy Scotland.
 We were trying to find a way to engage with the community and tourists about how to have better awareness of energy consumption to avoid power cuts and develop ways to use the surplass energy.
 
-After a couple of hours of writing down ideas and sketches, [Kyle][Kyle] mentioned if we have seen the new Philips smart light bulbs. Neither of us have heard about them before, couple of more hours of research and the next day [Margus][Margus] developed the first hack of the light bulb, in our last night in Knoydart we managed to install it on one of the computers in the library to control the light bulb and change color according to the community energy consumption.
+After a couple of hours of writing down ideas and sketches, [Kyle][Kyle] mentioned if we have seen the new [Phillips smart light bulbs][phillipshue]. None of us have heard about them before, couple of more hours of research and the next day [Margus][Margus] developed the first hack of the light bulb. We managed on our last night in Knoydart to install it on one of the computers in the community library. The pupose was to change the color of the light bulb according to the community energy consumption.
+
 And this is what we left there for 3 month.
 
-![Hydro turbine](/assets/Knoydart/philips-library.jpg)
+![Phillips Hue in the library](/assets/Knoydart/philips-library.jpg)
 
 
 
 ##First evaluation:
 
-When we went back to Knoydart at the end of same year, we found out that not many people knew about our [Power of knoydart website][powerofknoydart] and also all the lights in the library have been removed.
+We ran focus groups, interviewed people and made various versions of our visualisations and work. Finally the community were happy with three final designs.
 
-Not knowing about our website was because of reasons as simple:
-- some lost the link to the page
-- some didn't know about it
-- some found it unreliable that the page was often down
+![focus group](/assets/Knoydart/first-focusgroup.jpg)
+
+
+1:Smart light bulb
+
+2:The new [Power of knoydart website][powerofknoydart]
+
+3:Data kettle (a widget for windows computers that shows the amount of energy consumption as a water level in a kettle).
+
+
+When we went back to Knoydart at the end of same year, we found out that not many people knew about our [Power of knoydart website][powerofknoydart] and also all the lights in the library have been removed, and sadly not many people installed our kettle on their computers.
+
+Not knowing about our website or the kettle widget was because of reasons as simple: some lost the link to the page, some didn't know about it, and some found it unreliable that the page was often down
 
 The lights being moved from the library was again because our script lost communication with data server and the light bulb.
 
-##Iteration:
+
+##Iterations:
 
 To solve the advertising problem [Jamie][Jamie] printed out 300 water proof stickers that could be put in different locations as a point of reference. We've got one on our meeting room at Design informatics, here at University of Edinburgh!
 
-To solve the reliability problem, we asked [Chris Barker][chrisbarker] to join our team. the two of us developed a new and clean page for [Power of Knoydart][powerofknoydart], made it more resilient and we all advertised it on any medium that we could like twitter, facebook and so on.
+To solve the reliability problem, we asked [Chris Barker][chrisbarker] to join our team. The two of us developed a new and clean page for [Power of Knoydart][powerofknoydart], made it more resilient and made an easy installation for the [data kettle][datakettle] and we all advertised it on any medium that we could like twitter, facebook and so on.
 
 The last problem was to light the light bulb. We needed to bring it to somewhere more public and in the view of both tourists and the community.
 We made a new version of the code which is documented and accessible on here: [Power of Knoydart][githubknoydart]
@@ -51,32 +70,41 @@ We made a new version of the code which is documented and accessible on here: [P
 I will publish the Phillips python code on the [Power of Knoydart website][githubknoydart] in the next couple of days.
 Here's how to do it yourlself:
 
-###Here's how we hacked the Phillips light:
+##Here's how we hacked the Phillips light:
 Get yourself a:
-- Raspberry pie (Instead of using a big computer, use one of these to save power and easy installation)
-- Phillips Hue
-- Miniature wifi (You need this to connect to the internet)
+
+**Raspberry pie** (Instead of using a big computer, use one of these to save power and easy installation)
+
+**Phillips Hue**
+
+**Miniature wifi** (You need this to connect to the internet)
 
 
 First You need to install a couple of libraries on the Raspberry pie in order to talk to the Phillips Hue light bulb.
 
 Here's the list of libraries:
-- interp (You need this to convert numerical ranges, for example in our case if we're using 10kwh of electricity convert it to a range of green and if it's more that 140 - 180 convert it to a range of red)
-- phue (This is the imporatant library that let's you speak with the smart bulb)
+
+**interp** (You need this to convert numerical ranges, for example in our case if we're using 10kwh of electricity convert it to a range of green and if it's more that 140 - 180 convert it to a range of red)
+
+
+**phue** (This is the imporatant library that let's you speak with the smart bulb)
 
 That's it. Install these by [googling][google] or [ducking][duckduckgo] their name and python together.
 
 And here's the simple code:
 
 ```python
-b = phue.Bridge('IP address of the Phillips Hue')#You can get it from their online console.
-     b.connect()
-     b.get_api()
-     r=0
-     sys.stdout.flush()
-```
+'''IP address of the Phillips Hue'''
+b = phue.Bridge(0.0.0.0)
+'''You can get it from their online console.'''
+b.connect()
+b.get_api()
+r=0
+sys.stdout.flush()
 
+```
 And then, changing light bulbs color according to your data, in my case it was a number between 0-180
+
 ```python
 if num>150 and num<=180: #num has the number I mentioned, the data you want to visualise into light colors.
     hue=int(interp(r,[150,180],[5000,1])) #interp will interpolate the values to the range I want here is red
@@ -115,11 +143,16 @@ time.sleep(10)
 [Margus]:https://github.com/modulo-
 [offgrid]:http://lifeoffthegrid.net
 [Kyle]:http://www.knoydart-foundation.com/about/about-the-foundation/knoydart-renewables/
-[Knoydart Foundation]:http://www.knoydart-foundation.com/
+[knoydartfoundation]:http://www.knoydart-foundation.com
 [Benny]:http://www.communityenergyscotland.org.uk/our-team.asp?id=29
+[communityenergy]:http://www.communityenergyscotland.org.uk
 [powerofknoydart]:http://powerofknoydart.org/
 [trackercode]:https://github.com/Mehrpouya/PowerOfKnoydart/tree/master/TrackerCode
 [chrisbarker]:https://github.com/TerribleBugger
 [githubknoydart]:https://github.com/Mehrpouya/PowerOfKnoydart
 [duckduckgo]:http://duckduckgo.com
 [google]:http://google.com
+[localenergyscot]:http://www.localenergyscotland.org
+[phillipshue]:http://www2.meethue.com/en-gb/
+[bunkhouse]:http://www.knoydart-foundation.com/bunkhouse/about-the-bunkhouse/
+[datakettle]:http://www.powerofknoydart.org/downloads.html
