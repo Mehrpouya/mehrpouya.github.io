@@ -1,0 +1,164 @@
+  <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Hadi Mehrpouya</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="/css/bootstrap.min.css" rel="stylesheet">
+    <link href="/css/main.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+
+    <!-- Just for debugging purposes. Don't actually copy this line! -->
+    <!--[if lt IE 9]><script src="../../assets/js/ie8-responsive-file-warning.js"></script><![endif]-->
+
+    <!-- HTML5 shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!--[if lt IE 9]>
+      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+  </head>
+
+  <body>
+
+    <div class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand" href="/">Hadi Mehrpouya</a>
+        </div>
+        <div class="collapse navbar-collapse">
+          <ul class="nav navbar-nav">
+	    <li><a href="/projects">Projects</a></li>
+	    <li><a href="http://hadimeh.tumblr.com/">Photography(Tumblr)</a></li>
+	    <li><a href="/blog">blog</a></li>
+            <li><a href="/publications">Publications</a></li>
+            <li><a href="/about">About</a></li>
+          </ul>
+        </div><!--/.nav-collapse -->
+      </div>
+    </div>
+
+    <div class="container postsContainer leftAlign">
+
+  <h1>Phillips Light bulb diary:</h1>
+
+<h2>How it all came together:</h2>
+
+<p>In August 2014 <a href="http://www.sps.ed.ac.uk/staff/social_anthropology/cross_jamie">Jamie Cross</a> Co-investigator of [Off the Grid][offgird] asked <a href="http://hadi.link">myself</a> and <a href="https://github.com/modulo-">Margus Lind</a> to join another project that he was leading in collaboration with Knoydart Foundation, Local Energy Scotland and Community Energy Scotland.</p>
+
+<p>After developing a few data visualisation to try and find a way to translate the data from this tracker
+<img src="/assets/Knoydart/tracker.jpg" alt="Hydro turbine"></p>
+
+<p>into something meaningful for the community.
+Sitting in Knoydart bunkhouse the three of us joined by <a href="http://www.knoydart-foundation.com/about/about-the-foundation/knoydart-renewables/">Kyle Smith</a> operations manager of <a href="http://www.knoydart-foundation.com/">Knoydart Foundation</a> and <a href="http://www.communityenergyscotland.org.uk/our-team.asp?id=29">Benny Talbot</a> from Community Energy Scotland.
+We were trying to find a way to engage with the community and tourists about how to have better awareness of energy consumption to avoid power cuts and develop ways to use the surplass energy.</p>
+
+<p>After a couple of hours of writing down ideas and sketches, <a href="http://www.knoydart-foundation.com/about/about-the-foundation/knoydart-renewables/">Kyle</a> mentioned if we have seen the new Philips smart light bulbs. Neither of us have heard about them before, couple of more hours of research and the next day <a href="https://github.com/modulo-">Margus</a> developed the first hack of the light bulb, in our last night in Knoydart we managed to install it on one of the computers in the library to control the light bulb and change color according to the community energy consumption.
+And this is what we left there for 3 month.</p>
+
+<p><img src="/assets/Knoydart/philips-library.jpg" alt="Hydro turbine"></p>
+
+<h2>First evaluation:</h2>
+
+<p>When we went back to Knoydart at the end of same year, we found out that not many people knew about our <a href="http://powerofknoydart.org/">Power of knoydart website</a> and also all the lights in the library have been removed.</p>
+
+<p>Not knowing about our website was because of reasons as simple:
+- some lost the link to the page
+- some didn&#39;t know about it
+- some found it unreliable that the page was often down</p>
+
+<p>The lights being moved from the library was again because our script lost communication with data server and the light bulb.</p>
+
+<h2>Iteration:</h2>
+
+<p>To solve the advertising problem <a href="http://www.sps.ed.ac.uk/staff/social_anthropology/cross_jamie">Jamie</a> printed out 300 water proof stickers that could be put in different locations as a point of reference. We&#39;ve got one on our meeting room at Design informatics, here at University of Edinburgh!</p>
+
+<p>To solve the reliability problem, we asked <a href="https://github.com/TerribleBugger">Chris Barker</a> to join our team. the two of us developed a new and clean page for <a href="http://powerofknoydart.org/">Power of Knoydart</a>, made it more resilient and we all advertised it on any medium that we could like twitter, facebook and so on.</p>
+
+<p>The last problem was to light the light bulb. We needed to bring it to somewhere more public and in the view of both tourists and the community.
+We made a new version of the code which is documented and accessible on here: <a href="https://github.com/Mehrpouya/PowerOfKnoydart">Power of Knoydart</a></p>
+
+<h2>Open source code and documentation:</h2>
+
+<p>I will publish the Phillips python code on the <a href="https://github.com/Mehrpouya/PowerOfKnoydart">Power of Knoydart website</a> in the next couple of days.
+Here&#39;s how to do it yourlself:</p>
+
+<h3>Here&#39;s how we hacked the Phillips light:</h3>
+
+<p>Get yourself a:
+- Raspberry pie (Instead of using a big computer, use one of these to save power and easy installation)
+- Phillips Hue
+- Miniature wifi (You need this to connect to the internet)</p>
+
+<p>First You need to install a couple of libraries on the Raspberry pie in order to talk to the Phillips Hue light bulb.</p>
+
+<p>Here&#39;s the list of libraries:
+- interp (You need this to convert numerical ranges, for example in our case if we&#39;re using 10kwh of electricity convert it to a range of green and if it&#39;s more that 140 - 180 convert it to a range of red)
+- phue (This is the imporatant library that let&#39;s you speak with the smart bulb)</p>
+
+<p>That&#39;s it. Install these by <a href="http://google.com">googling</a> or <a href="http://duckduckgo.com">ducking</a> their name and python together.</p>
+
+<p>And here&#39;s the simple code:</p>
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="n">b</span> <span class="o">=</span> <span class="n">phue</span><span class="o">.</span><span class="n">Bridge</span><span class="p">(</span><span class="s">&#39;IP address of the Phillips Hue&#39;</span><span class="p">)</span><span class="c">#You can get it from their online console.</span>
+     <span class="n">b</span><span class="o">.</span><span class="n">connect</span><span class="p">()</span>
+     <span class="n">b</span><span class="o">.</span><span class="n">get_api</span><span class="p">()</span>
+     <span class="n">r</span><span class="o">=</span><span class="mi">0</span>
+     <span class="n">sys</span><span class="o">.</span><span class="n">stdout</span><span class="o">.</span><span class="n">flush</span><span class="p">()</span>
+</code></pre></div>
+<p>And then, changing light bulbs color according to your data, in my case it was a number between 0-180
+<code>python
+if num&gt;150 and num&lt;=180: #num has the number I mentioned, the data you want to visualise into light colors.
+    hue=int(interp(r,[150,180],[5000,1])) #interp will interpolate the values to the range I want here is red
+elif num&gt;100 and num&lt;=150:
+    hue=int(interp(r,[100,150],[15000,10000]))#here is yellow
+elif num&gt;0 and num&lt;=100:
+    hue=int(interp(r,[0,100],[30000,25000]))#green
+bri=255 #brightness of the light
+sat=254 #saturation of the light
+lights = b.lights #this will give me the list of light bulbs to iterate through
+command = {#preparing a command to send to the Phillips Hue controller
+        &#39;transitiontime&#39;: 3,#how long to take to change to a new color.
+        &#39;on&#39;: True,
+        &#39;bri&#39;: 255,
+        &#39;hue&#39;: hue,
+        &#39;sat&#39;: 255
+    }
+for l in lights:#iterate through and change colors.
+    print(l.name)
+    b.set_light(l.name, command)
+time.sleep(10)
+</code></p>
+
+<h2>Reflections:</h2>
+
+    </div><!-- /.container -->
+
+
+    <!-- Bootstrap core JavaScript
+    ================================================== -->
+    <!-- Placed at the end of the document so the pages load faster -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.0/jquery.min.js"></script>
+    <script src="/js/bootstrap.min.js"></script>
+  </body>
+</html>
+
+<link href="/css/bootstrap.css" rel="stylesheet">
+<style>
+  body {
+    padding-top: 60px;
+  }
+</style>
+
+

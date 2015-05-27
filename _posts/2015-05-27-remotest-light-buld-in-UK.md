@@ -3,14 +3,12 @@ title: Remotest smart light bulb in the UK!
 layout: posts
 categories: work news
 imageSource: /assets/Knoydart/seal.jpg
-summary: Report on our work in Collaboration with Knoydart Foundaiton to develop new ways of looking at Knoydart's renewable energy.
+summary: Short blog explaining how did we develop the first remotest light bulb in the mainland UK.
 ---
 
 #Phillips Light bulb diary:
 
 ##How it all came together:
-Almost a year ago, ,  went to Knoydart to start working on a new research project, a collaboration between University of Edinburgh,
-
 In August 2014 [Jamie Cross][Jamie] Co-investigator of [Off the Grid][offgird] asked [myself][Hadi] and [Margus Lind][Margus] to join another project that he was leading in collaboration with Knoydart Foundation, Local Energy Scotland and Community Energy Scotland.
 
 After developing a few data visualisation to try and find a way to translate the data from this tracker
