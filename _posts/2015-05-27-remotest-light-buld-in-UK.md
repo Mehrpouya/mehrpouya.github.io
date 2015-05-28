@@ -3,25 +3,24 @@ title: Remotest smart light bulb in the UK!
 layout: posts
 categories: work news
 imageSource: /assets/Knoydart/herald.png
-summary: The Phillips Light Bulb project was recently featured in the Herald Scotland and Deadline News, and as part of the development team behind the work, thought it would be helpful to document how the project was developed and the code behind the project.
+summary: The Phillips Light Bulb project was recently featured in the Herald Scotland and Deadline News, and as part of the development team behind the work, I thought it would be helpful to document how the project was developed and the code behind the project.
 ---
 
 #Phillips Light Bulb Diary:
 
-The Phillips Light Bulb project was recently featured in the [Herald Scotland][herald] and [Deadline News][deadlinenews], and as part of the development team behind the work, thought it would be helpful to document how the project was developed and the code behind the project.
+The Phillips Light Bulb project was recently featured in the [Herald Scotland][herald] and [Deadline News][deadlinenews], and as part of the development team behind the work, I thought it would be helpful to document how the project was developed and the code behind the project.
 
 ## How it all came together:
 
-In August 2014 [Jamie Cross][Jamie] Co-investigator of [Off the Grid][offgrid] asked [myself][Hadi] and [Margus Lind][Margus] to join another project that he was leading in collaboration with [Knoydart Foundation][knoydartfoundation], [Local Energy Scotland][localenergyscot] and [Community Energy Scotland][communityenergy].
+In August 2014 [Jamie Cross][Jamie], Co-Investigator of the [Off the Grid][offgrid] asked [myself][Hadi] and [Margus Lind][Margus] to join another project that he was leading in collaboration with [Knoydart Foundation][knoydartfoundation], [Local Energy Scotland][localenergyscot] and [Community Energy Scotland][communityenergy].
 
-After developing a few data visualisations to try and find a way to translate the data from this tracker, and fragility of this micro-hydro into something more meanngful for the community without creating panic.
+The project was conceived following the development of a few data visualisations to try and find a way to translate the data from this tracker, and fragility of this micro-hydro into something more meaningful for the community without creating panic.
 
 ![Tracker](/assets/Knoydart/tracker.jpg) ![Hydro](/assets/Knoydart/hydro.jpg)
 
-Sitting in the [Knoydart bunkhouse][bunkhouse] the three of us joined by [Kyle Smith][Kyle] operations manager of [Knoydart Foundation][knoydartfoundation] and [Benny Talbot][Benny] from Community Energy Scotland.
-We were trying to find a way to engage with the community and tourists about how to have better awareness of energy consumption to avoid power cuts and develop ways to use the surplass energy.
+Sitting in the [Knoydart bunkhouse][bunkhouse], the three of us were joined by [Kyle Smith][Kyle] operations manager of [Knoydart Foundation][knoydartfoundation] and [Benny Talbot][Benny] from Community Energy Scotland. We were trying to find a way to engage with the community and tourists about how to have better awareness of energy consumption to avoid power cuts and develop ways to use the surplus energy.
 
-After a couple of hours of writing down ideas and sketches, [Kyle][Kyle] mentioned if we have seen the new [Phillips smart light bulbs][phillipshue]. None of us have heard about them before, however after a few more hours of research, the next day [Margus][Margus] developed the first hack of the light bulb. We managed on our last night in Knoydart to install it on one of the computers in the community library. The purpose was to change the color of the light bulb according to the community energy consumption.
+After a couple of hours of writing down ideas and sketches, [Kyle][Kyle] enquired as to whether we had seen the new [Phillips smart light bulbs][phillipshue]. None of us have heard about them before, however after a few more hours of research, the next day [Margus][Margus] developed the first hack of the light bulb. We managed on our last night in Knoydart to install it on one of the computers in the community library. The purpose was to change the color of the light bulb according to the community energy consumption.
 
 And this is what we left there for the following 3 months.
 
@@ -54,15 +53,15 @@ The lights being moved from the library was again because our script lost commun
 
 To solve the advertising problem [Jamie][Jamie] printed out 300 water proof stickers that could be put in different locations as a point of reference. We've got one on our meeting room at Design informatics, here at University of Edinburgh!
 
-To solve the reliability problem, we asked [Chris Barker][chrisbarker] to join our team. The two of us developed a new and clean page for [Power of Knoydart][powerofknoydart], made it more resilient and made an easy installation for the [data kettle][datakettle] and we all advertised it on any medium that we could like twitter, facebook and so on.
+To solve the reliability problem, we asked [Chris Barker][chrisbarker] to join our team. The two of us developed a new and clean page for [Power of Knoydart][powerofknoydart], made it more resilient and made an easy installation for the [data kettle][datakettle] and we all advertised it on any medium that we could, for example Twitter, Facebook and other social networks.
 
-The last problem was to light the light bulb. We needed to bring it to somewhere more public and in the view of both tourists and the community.
+The last problem was to draw attention to the light bulb. We needed to bring it to somewhere more public and in the view of both tourists and the community.
 We made a new version of the code which is documented and accessible on here: [Power of Knoydart][githubknoydart]
 
 
 
 ##Open source code and documentation:
-I will publish the Phillips python code on the [Power of Knoydart website][githubknoydart] in the next couple of days.
+I will publish the Phillips Python code on the [Power of Knoydart website][githubknoydart] in the next couple of days.
 Here's how to do it yourself:
 
 ##Here's how we hacked the Phillips light:
@@ -82,7 +81,7 @@ Here's the list of libraries:
 **interp** (You need this to convert numerical ranges, for example in our case if we're using 10kwh of electricity convert it to a range of green and if it's more that 140 - 180 convert it to a range of red)
 
 
-**phue** (This is the imporatant library that let's you speak with the smart bulb)
+**phue** (This is the important library that let's you speak with the smart bulb)
 
 That's it. Install these by [googling][google] or [ducking][duckduckgo] their name and python together.
 
@@ -135,7 +134,7 @@ time.sleep(10)
 [communityenergy]:http://www.communityenergyscotland.org.uk
 [powerofknoydart]:http://powerofknoydart.org/
 [trackercode]:https://github.com/Mehrpouya/PowerOfKnoydart/tree/master/TrackerCode
-[chrisbarker]:https://github.com/TerribleBugger
+[chrisbarker]:http://www.twitter.com/chris_barker
 [githubknoydart]:https://github.com/Mehrpouya/PowerOfKnoydart
 [duckduckgo]:http://duckduckgo.com
 [google]:http://google.com
