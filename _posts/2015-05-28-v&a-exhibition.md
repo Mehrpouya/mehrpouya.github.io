@@ -1,5 +1,5 @@
 ---
-title: Zaytoun is being Exhibited at Victoria and Albert Museum - London
+title: Zaytoun is being Exhibited at Victoria and Albert Musuem - London
 layout: posts
 categories: work news
 imageSource: /assets/Zaytoun/VnA.jpg
