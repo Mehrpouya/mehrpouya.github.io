@@ -8,7 +8,7 @@ layout: default
 {% assign myCount = 0 %}
 
 {% for post in site.categories.news%}
-<div class="col-6 col-sm-6 col-lg-4 withBorders">
+<div class="col-md-5 col-sm-6 col-lg-4 withBorders pull-left">
 
 <h3>{{ post.title }}</h3>
 <img src={{post.imageSource}} />
@@ -21,4 +21,3 @@ layout: default
 </div>
 
 {% endfor %}
-

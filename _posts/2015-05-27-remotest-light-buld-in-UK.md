@@ -3,12 +3,12 @@ title: Remotest smart light bulb in the UK!
 layout: posts
 categories: work news
 imageSource: /assets/Knoydart/herald.png
-summary: The Phillips Light Bulb project was recently featured in the Herald Scotland and Deadline News, and as part of the development team behind the work, and thought it would be helpful to document how the project was developed and the code behind the project.
+summary: The Phillips Light Bulb project was recently featured in the Herald Scotland and Deadline News, and as part of the development team behind the work, thought it would be helpful to document how the project was developed and the code behind the project.
 ---
 
 #Phillips Light Bulb Diary:
 
-The Phillips Light Bulb project was recently featured in the [Herald Scotland][herald] and [Deadline News][deadlinenews], and as part of the development team behind the work, and thought it would be helpful to document how the project was developed and the code behind the project.
+The Phillips Light Bulb project was recently featured in the [Herald Scotland][herald] and [Deadline News][deadlinenews], and as part of the development team behind the work, thought it would be helpful to document how the project was developed and the code behind the project.
 
 ## How it all came together:
 
