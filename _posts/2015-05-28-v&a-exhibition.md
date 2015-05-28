@@ -27,7 +27,7 @@ You can **download** a copy of our paper here:[EVA-Paper][paper]
 
 
 
-**Artists:** [Chris Barker][chrisbarker], [Mina Braun][minabraun] and [Hadi Mehrpouya][hadi] with thanks to [Alan Ramsay][alanramsay]
+**Artists:** [Chris Barker][chrisbarker], [Mina Braun][minabraun] and [Hadi Mehrpouya][hadi] with thanks to [Alan Ramsay][alanramsay] and [Mark Kobine][kobine]
 
 For more information see [Documentation on Vimeo](https://vimeo.com/105133652)
 [zaytoun]:http://hadi.link/work/news/2014/09/03/Zaytoun/
@@ -43,3 +43,4 @@ For more information see [Documentation on Vimeo](https://vimeo.com/105133652)
 [uoe]:http://ed.ac.uk
 [eca]:http://www.eca.ed.ac.uk
 [producingdata]:http://www.eca.ed.ac.uk/school-of-design/news-events/producing-data-practices-materialities-values
+[kobine]:http://www.kobine.net
