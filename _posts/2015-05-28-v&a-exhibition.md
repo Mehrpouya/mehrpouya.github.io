@@ -1,14 +1,14 @@
 ---
-title: Zaytoun is being Exhibited at Victoria and Albert Musuem - London
+title: Zaytoun is being Exhibited at LimeWharf - London by Victoria and Albert Musuem Digital Futures
 layout: posts
 categories: work news
-imageSource: /assets/Zaytoun/VnA.jpg
+imageSource: /assets/Zaytoun/lime.jpg
 summary: Zaytoun is a piece by three Edinburgh-based artists, dedicated to over 60 years of Palestinian struggle to carve out an existence under the yoke of physical and cultural oppression. Our work is going to V&A as part of V&A Digital Futures organised by EVA London.
 ---
 
 #Exhibiting at Victoria and Albert Museum London
 
-We are very pleased to announce that our piece [Zaytoun][zaytoun] is going to be exhibited at Victoria and Albert Museum in London on [Monday 6th July][register]
+We are very pleased to announce that our piece [Zaytoun][zaytoun] is going to be exhibited at Exhibited at LimeWharf - London by Victoria and Albert Musuem Digital Futures on [Monday 6th July][register]
 
 Zaytoun is a piece by three Edinburgh-based artists, dedicated to over 60 years of Palestinian struggle to carve out an existence under the yoke of physical and cultural oppression.
 
