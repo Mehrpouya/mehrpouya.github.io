@@ -5,4 +5,3 @@ markdown: redcarpet
 url: "http://localhost:4001"
 
 permalink: pretty
-pygments: true

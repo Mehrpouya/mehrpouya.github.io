@@ -136,13 +136,14 @@ Here&#39;s how to do it yourself:</p>
 <p>That&#39;s it. Install these by <a href="http://google.com">googling</a> or <a href="http://duckduckgo.com">ducking</a> their name and python together.</p>
 
 <p>And here&#39;s the simple code:</p>
-<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="sd">&#39;&#39;&#39;IP address of the Phillips Hue&#39;&#39;&#39;</span>
+<div class="highlight"><pre><code class="language-python" data-lang="python"><span class="s">'''IP address of the Phillips Hue'''</span>
 <span class="n">b</span> <span class="o">=</span> <span class="n">phue</span><span class="o">.</span><span class="n">Bridge</span><span class="p">(</span><span class="mf">0.0</span><span class="o">.</span><span class="mf">0.0</span><span class="p">)</span>
-<span class="sd">&#39;&#39;&#39;You can get it from their online console.&#39;&#39;&#39;</span>
+<span class="s">'''You can get it from their online console.'''</span>
 <span class="n">b</span><span class="o">.</span><span class="n">connect</span><span class="p">()</span>
 <span class="n">b</span><span class="o">.</span><span class="n">get_api</span><span class="p">()</span>
 <span class="n">r</span><span class="o">=</span><span class="mi">0</span>
 <span class="n">sys</span><span class="o">.</span><span class="n">stdout</span><span class="o">.</span><span class="n">flush</span><span class="p">()</span>
+
 </code></pre></div>
 <p>And then, changing light bulbs color according to your data, in my case it was a number between 0-180</p>
 <div class="highlight"><pre><code class="language-python" data-lang="python"><span class="k">if</span> <span class="n">num</span><span class="o">&gt;</span><span class="mi">150</span> <span class="ow">and</span> <span class="n">num</span><span class="o">&lt;=</span><span class="mi">180</span><span class="p">:</span> <span class="c">#num has the number I mentioned, the data you want to visualise into light colors.</span>
@@ -155,11 +156,11 @@ Here&#39;s how to do it yourself:</p>
 <span class="n">sat</span><span class="o">=</span><span class="mi">254</span> <span class="c">#saturation of the light</span>
 <span class="n">lights</span> <span class="o">=</span> <span class="n">b</span><span class="o">.</span><span class="n">lights</span> <span class="c">#this will give me the list of light bulbs to iterate through</span>
 <span class="n">command</span> <span class="o">=</span> <span class="p">{</span><span class="c">#preparing a command to send to the Phillips Hue controller</span>
-        <span class="s">&#39;transitiontime&#39;</span><span class="p">:</span> <span class="mi">3</span><span class="p">,</span><span class="c">#how long to take to change to a new color.</span>
-        <span class="s">&#39;on&#39;</span><span class="p">:</span> <span class="bp">True</span><span class="p">,</span>
-        <span class="s">&#39;bri&#39;</span><span class="p">:</span> <span class="mi">255</span><span class="p">,</span>
-        <span class="s">&#39;hue&#39;</span><span class="p">:</span> <span class="n">hue</span><span class="p">,</span>
-        <span class="s">&#39;sat&#39;</span><span class="p">:</span> <span class="mi">255</span>
+        <span class="s">'transitiontime'</span><span class="p">:</span> <span class="mi">3</span><span class="p">,</span><span class="c">#how long to take to change to a new color.</span>
+        <span class="s">'on'</span><span class="p">:</span> <span class="bp">True</span><span class="p">,</span>
+        <span class="s">'bri'</span><span class="p">:</span> <span class="mi">255</span><span class="p">,</span>
+        <span class="s">'hue'</span><span class="p">:</span> <span class="n">hue</span><span class="p">,</span>
+        <span class="s">'sat'</span><span class="p">:</span> <span class="mi">255</span>
     <span class="p">}</span>
 <span class="k">for</span> <span class="n">l</span> <span class="ow">in</span> <span class="n">lights</span><span class="p">:</span><span class="c">#iterate through and change colors.</span>
     <span class="k">print</span><span class="p">(</span><span class="n">l</span><span class="o">.</span><span class="n">name</span><span class="p">)</span>

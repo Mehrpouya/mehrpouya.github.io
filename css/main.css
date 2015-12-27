@@ -163,15 +163,15 @@ a:visited { color: #a0a; }
 .withBorders{
 margin:10px;
 
-	
+
 }
 
 .leftAlign p{
-  text-align:left;	
+  text-align:left;
 }
 
 .leftAlign ul,h2,li{
-  text-align:left;	
+  text-align:left;
 }
 
 
@@ -187,4 +187,8 @@ margin:10px;
 .postsContainer p{
     font-size:2em;
 }
-
+.portfolio {
+  max-height: 250px;
+  margin-left: auto;
+  margin-right: auto;
+}
